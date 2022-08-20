@@ -1,15 +1,28 @@
 * {
   padding: 0;
   margin: 0;
-  font-size: 40;
+  font-size: 40px;
 }
 
 .box-one {
   background-color: orange;
-  border: 0 solid purple;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  border: 30px solid purple;
+  margin: 60px;
 }
+
+/* Margins collapse, so any adjacent elements use the larger margin
+    instead of adding the margins together.
+*/
 
 .box-two {
   background-color: lightblue;
   border: 0 solid green;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  border: 30px solid purple;
+  margin: 60px;
 }
